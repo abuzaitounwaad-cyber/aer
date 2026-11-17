@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Tasks</title>
+</head>
+<body>
+
+    <h1>JavaScript Tasks</h1>
+
+    <p id="result"></p>
+
+    <script>
+
+        // Task 1
+
+        function double1(x) {
+            return 2 * x;
+        }
+
+        function double2(x) {
+            return 2 * x;
+        }
+
+        function double3(x) {
+            return 2 * x;
+        }
+
+        // Task 2
+
+        function sameLength(str1, str2) {
+            return str1.length === str2.length;
+        }
+
+        // Task 3
+
+        function randomNumber() {
+            return Math.random();
+        }
+
+        // Display Results
+
+        document.getElementById("result").innerHTML =
+            "Task 1: " + double1(5) + "<br>" +
+            double2(4) + "<br>" +
+            double3(3) + "<br><br>" +
+
+            "Task 2: " + sameLength("tree", "clue") + "<br>" +
+            sameLength("tree", "car") + "<br><br>" +
+
+            "Task 3: " + randomNumber();
+
+    </script>
+
+</body>
+</html>
